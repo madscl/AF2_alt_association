@@ -1,0 +1,839 @@
+['2jp1', 'anc0_unrelaxed_rank_011_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilegtr3vmla.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target5fllqa5c.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 34, RMSD=   3.35, Seq_ID=n_identical/n_aligned= 0.147
+TM-score= 0.37003 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.35294 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       4.6158157878   0.2681245064   0.9193956926  -0.2877860482
+1       4.6512587134   0.1721412004  -0.3396384905  -0.9246691856
+2      -1.2836186487  -0.9478800853   0.1983866332  -0.2493312808
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK-------RTCVSLTTQRLPV------SRIKTYTITE-G-SLRAVIFIT-KRGLKVCADPQATWVRDVV--
+               .::.               ..:::::::: : ::::::::: :.:::::::.
+--------ARKSCCLKYTK---------RPLPLKRIKSYTIQSNEAGNIKAIIFTTKKGRKICANPN---------EK
+
+------------
+
+WVQKAMKHLDKK
+
+Found in output TM-score = 0.3529
+0.35294
+(7.37496280670166, 293, 5, 9.782872200012207, 341, 132.0, 50)
+['2jp1', 'anc2_unrelaxed_rank_007_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilexsv28sy7.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetix7h4pib.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 35, RMSD=   3.43, Seq_ID=n_identical/n_aligned= 0.200
+TM-score= 0.38743 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.36573 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       2.7477367815   0.7461406368   0.6282302909  -0.2204560086
+1       4.4749176520   0.2081827455  -0.5346632823  -0.8190208294
+2       2.2802015469  -0.6324034271   0.5652095861  -0.5297207087
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..:::::::::::::::::::: :::::::.
+--------EVVRKSVCLKYTTQ--------PLPLNRIKSYTIQNAGSIKAIIFTTKKGRKICANPE---------EKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3657
+0.36573
+(9.449206352233887, 368, 5, 10.81779956817627, 395, 158.0, 57)
+['2jp1', 'anc2a_unrelaxed_rank_015_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobile08dares2.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetbaje75_2.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 35, RMSD=   3.54, Seq_ID=n_identical/n_aligned= 0.200
+TM-score= 0.37872 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.35794 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       2.6403851987   0.7676965608   0.6185587173  -0.1674129738
+1       5.3640633415   0.1920129610  -0.4712901985  -0.8608231942
+2       1.9147950510  -0.6113697844   0.6287055448  -0.4805791554
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..:::::::::::::::::::: :::::::.
+--------EVVRKSVCLKLTTQ--------PLPLNRIKSYTIQNAGSIKAIIFTTKKGRKICANPE---------EKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3579
+0.35794
+(9.431665420532227, 366, 5, 10.914668083190918, 395, 163.0, 57)
+['2jp1', 'anc2b_unrelaxed_rank_008_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobile84nqbmb0.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetmaxa0olh.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 35, RMSD=   3.41, Seq_ID=n_identical/n_aligned= 0.200
+TM-score= 0.39239 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.37002 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       3.0391446866   0.6999572234   0.6558549724  -0.2826908925
+1       4.1485185487   0.1905656388  -0.5529873630  -0.8111040092
+2       2.0216692585  -0.6882910887   0.5138669396  -0.5120509209
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..:::::::::::::::::::: :::::::.
+--------EVVRKSVCLKYTTQ--------PLPLNRIKSYTIQEAGSIKAIIFTTKKGRKICANPE---------EKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3700
+0.37002
+(9.490499496459961, 371, 5, 10.855260848999023, 398, 163.0, 57)
+['2jp1', 'anc2c_unrelaxed_rank_014_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilez9ok3t94.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target7zx5t5fs.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 45, RMSD=   2.74, Seq_ID=n_identical/n_aligned= 0.556
+TM-score= 0.50370 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.48101 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       2.1859926872   0.6919359642   0.1817642636  -0.6987033519
+1       6.2336811235  -0.1858365022  -0.8903355429  -0.4156529990
+2       6.6799095174  -0.6976312894   0.4174498456  -0.5822767473
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSD----KRTCVSLTTQRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV--------------
+           .::::::.::::::..:::::::::::::::::::::::::::..
+-------EVVRKSVCLKYTTQPLPLNRIKSYTIQAGSIKAIIFTTKKGRKICANPE--------EKWVKKAIKHLDRK
+
+Found in output TM-score = 0.4810
+0.48101
+(2.8291165828704834, 299, 5, 7.501914024353027, 394, 167.0, 57)
+['2jp1', 'anc2d_unrelaxed_rank_015_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilefsd_3p8u.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target811hgh_n.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 34, RMSD=   3.25, Seq_ID=n_identical/n_aligned= 0.382
+TM-score= 0.36507 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.34545 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       3.0328241016   0.4891889939   0.6944610954  -0.5276532149
+1       4.2916249934  -0.0990185422  -0.5568507870  -0.8246893532
+2       0.8403953494  -0.8665387796   0.4556764071  -0.2036407509
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEG-SLRAVIFITKR-GLKVCADPQATWVRDVV--
+                 .::.              ..::::::::: ::::::::::: :::::::.
+--------EVVRKSVCLKYTT---------QPLPLNRIKSYTIQNAGSIKAIIFITKKGRKICANPE---------EK
+
+-------------
+
+WVKKAIKHLDRKA
+
+Found in output TM-score = 0.3454
+0.34545
+(9.571977615356445, 368, 5, 11.067400932312012, 397, 163.0, 57)
+['2jp1', 'anc2e_unrelaxed_rank_020_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilefjnb80us.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target7_or2e6w.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 45, RMSD=   3.00, Seq_ID=n_identical/n_aligned= 0.556
+TM-score= 0.46921 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.44559 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0      -8.3210837794   0.9200633603   0.2624141503   0.2908989976
+1      11.4315486867  -0.0343411327   0.7936880067  -0.6073549494
+2      -7.1257244455  -0.3902615785   0.5488152345   0.7392548537
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVS---DKRTCVSLTTQRLPVSRIKTYTITEG-SLRAVIFITKRGLKVCADPQATWVRDVV--------------
+         .:::::::::::::::..:::::::: :::::::::.::::::::.
+------EVVRKSVCLKYTTQPLPLNRIKSYTIQNAGSIKAIIFTTKKGLKICANP---------EEKWVKKAIKHLDR
+
+--
+
+KA
+
+Found in output TM-score = 0.4456
+0.44559
+(3.0857656002044678, 297, 5, 7.9234938621521, 397, 164.0, 57)
+['2jp1', 'anc2f_unrelaxed_rank_006_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilev27oczrv.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target8h44zf_o.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 35, RMSD=   3.38, Seq_ID=n_identical/n_aligned= 0.200
+TM-score= 0.38715 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.36553 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       2.9429261450   0.6859600765   0.6846803484  -0.2463160449
+1       5.0123671920   0.2053585361  -0.5069187243  -0.8371745807
+2       1.4435319840  -0.6980591989   0.5236852370  -0.4883309610
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..:::::::::::::::::::: :::::::.
+--------EVVRKSVCLKYTTQ--------RLPLNRIKSYTIQNAGSIKAIIFTTKKGRKICANPE---------EKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3655
+0.36553
+(9.826825141906738, 375, 5, 10.942824363708496, 399, 165.0, 57)
+['2jp1', 'anc2g_unrelaxed_rank_005_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobile0gbwxyki.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetui6vffu8.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 34, RMSD=   3.53, Seq_ID=n_identical/n_aligned= 0.147
+TM-score= 0.36671 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.35039 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       3.1834986522   0.5981151492   0.7819493753   0.1755375824
+1       4.5777903312   0.7448510466  -0.4615779626  -0.4818118956
+2       4.1115183817  -0.2957282312   0.4189283458  -0.8585125826
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..::::::::: :::::::::: :::::::.
+--------EVVRKSVCLKYTTQ--------PLPLNRIKSYTIQEGS-IKAIIFTTKKGRKICANPE---------EKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3504
+0.35039
+(9.350884437561035, 371, 5, 10.696249961853027, 398, 173.0, 57)
+['2jp1', 'anc2h_unrelaxed_rank_019_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobileo49vc0ki.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetpm0mtf9t.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 45, RMSD=   2.98, Seq_ID=n_identical/n_aligned= 0.444
+TM-score= 0.49662 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.46936 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0     -11.1870485192   0.6625431062  -0.7449466185  -0.0780459359
+1      -3.1829648606   0.5552400149   0.4185238509   0.7187115639
+2     -10.6354243486  -0.5027376636  -0.5195116186   0.6909142637
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVS---DKRTCVS-LTTQRLPVSRIKTYTITEG-SLRAVIFITKRGLKVCADPQATWVRDVV-------------
+         .:::::: ::::::::: ::::::::. ..::::::::::::::::..
+------EVVRKSVCLKLTTQPLPLNR-IKSYTIQNAGSIKAIIFLTKKGLKICANPE--------EKWVKKAIKHLDR
+
+--
+
+KA
+
+Found in output TM-score = 0.4694
+0.46936
+(2.548260450363159, 288, 5, 7.552332878112793, 397, 172.0, 57)
+['2jp1', 'anc2i_unrelaxed_rank_007_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobile7qfim3b8.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target7gijsrvf.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 45, RMSD=   2.62, Seq_ID=n_identical/n_aligned= 0.600
+TM-score= 0.52676 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.49563 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0     -13.0738966941   0.8959657962  -0.3014950107   0.3261074219
+1       5.6438167580   0.2386326283   0.9460830585   0.2190463766
+2     -11.2920112458  -0.3745660968  -0.1184381900   0.9196046076
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVS---DKRTCVSLTTQRLPVSRIKTYTITEG-SLRAVIFITKRGLKVCADPQATWVRDVV--------------
+         .::::::::...:::::::::::::: ::::::::::::::::::.
+------EVVRKSVCLKLTTQPLPLNRIKSYTIQEAGSIKAIIFLTKKGLKICANP---------EEKWVKKAIKHLDR
+
+--
+
+KA
+
+Found in output TM-score = 0.4956
+0.49563
+(2.2658274173736572, 283, 5, 7.830365180969238, 400, 177.0, 57)
+['2jp1', 'anc2j_unrelaxed_rank_002_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilezzucrew9.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetwu53qpnh.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 45, RMSD=   2.36, Seq_ID=n_identical/n_aligned= 0.600
+TM-score= 0.54306 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.51814 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0     -14.1888052160   0.7687486964  -0.5282501305   0.3605235658
+1       0.9744175256   0.3399069802   0.8149751111   0.4693386976
+2     -11.1971722195  -0.5417459613  -0.2382590354   0.8060669609
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSD----KRTCVSLTTQRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV--------------
+           :::::::::::::::::::::::::::::::::::::::::::..
+-------EVVRKSVCLKLTTQPLPLNRIKSYTIQNGSIKAIIFLTKKGLKICANPE--------EKWVKKAIKHLDRK
+
+Found in output TM-score = 0.5181
+0.51814
+(1.792776107788086, 275, 5, 7.590890884399414, 397, 182.0, 57)
+['2jp1', 'anc2k_unrelaxed_rank_002_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobile2n9_fk6u.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target6lm142da.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 45, RMSD=   2.38, Seq_ID=n_identical/n_aligned= 0.622
+TM-score= 0.54072 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.51600 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0     -13.3776651453   0.7827180512  -0.4522091853   0.4276205153
+1       2.3487428026   0.3310051481   0.8843109011   0.3292868388
+2      -9.9990996008  -0.5270560163  -0.1161941608   0.8418496735
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSD----KRTCVSLTTQRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV--------------
+           :::::::::::::::::::::::::::::::::::::::::::..
+-------EVVRKSVCLKLTTQPLPLNRIKSYTIQEGSIKAIIFLTKKGLKICANPE--------EKWVKKAIKHLDRK
+
+Found in output TM-score = 0.5160
+0.516
+(1.69806969165802, 271, 5, 7.710592746734619, 400, 187.0, 57)
+['2jp1', 'anc2l_unrelaxed_rank_006_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilerlueq_mx.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targethm9cp7zc.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 35, RMSD=   3.40, Seq_ID=n_identical/n_aligned= 0.200
+TM-score= 0.39819 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.37490 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       0.0448301467   0.7895520889   0.5475515838   0.2771186784
+1      11.0415612167   0.1541088348   0.2601892183  -0.9531799608
+2      -0.6332694212  -0.5940184895   0.7952916658   0.1210504043
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDK---------RTCVSLTTQRLPV-----SRIKTYTITEGSLRAVIFITKR-GLKVCADPQATWVRDVV---
+                 .::..             ..:::::::::::::::::::: :::::::.
+--------EVVRKSICVKLTTQ--------RLPLNRIKSYTIQEAGSMKAIIFTTKKGIKICANPE---------AKW
+
+------------
+
+VKKAIKHLDRKA
+
+Found in output TM-score = 0.3749
+0.3749
+(9.543120384216309, 374, 5, 10.96430492401123, 404, 186.0, 57)
+['2jp1', 'anc2m_unrelaxed_rank_023_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilekc0ybr_5.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/target7u1qcvc6.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 45, RMSD=   2.27, Seq_ID=n_identical/n_aligned= 0.556
+TM-score= 0.59526 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.56458 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0      -9.9753369726   0.7955062012  -0.3472382252   0.4965838286
+1       5.0057052298   0.3906735725   0.9203586747   0.0177220093
+2      -8.5736568000  -0.4631889934   0.1799042100   0.8678078310
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVS---DKRTCVSLTT-QRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV--------------
+         .::::::::: :::::: :::::::::::::::::::::::::::..
+------EVVRKSICVKLTTQRLPLNR-IKSYTIQEGSMKAIIFITKKGIKICANPE--------AKWVKKAIKHLDRK
+
+Found in output TM-score = 0.5646
+0.56458
+(1.8188693523406982, 283, 5, 7.259424209594727, 406, 201.0, 57)
+['2jp1', 'anc2n_unrelaxed_rank_011_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilekjljzj7k.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targeter3nx_ep.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 64 residues
+
+Aligned length= 44, RMSD=   2.43, Seq_ID=n_identical/n_aligned= 0.545
+TM-score= 0.54029 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.51417 (if normalized by length of Chain_2, i.e., LN=64, d0=2.74)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0      -7.9146285574   0.8751518583   0.1950973080   0.4427711207
+1      10.5653578037   0.1287066847   0.7882651849  -0.6017246776
+2      -6.6443752305  -0.4664159240   0.5835880728   0.6647414137
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSD----KRTCVSLTT-QRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV-------------
+           ::::::::: :::::. .::::::::::::::::::::::::::..
+-------EVVRKSICVKLTTQRLPLNR-IKSYTIQEGSMKAIIFTTKKGIKICANPE--------AKWVKKAIKHLDR
+
+--
+
+KA
+
+Found in output TM-score = 0.5142
+0.51417
+(2.3877599239349365, 291, 5, 7.4658894538879395, 404, 196.0, 57)
+['2jp1', 'anc3_unrelaxed_rank_008_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilepq3czk4v.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetauu1lrgv.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 65 residues
+
+Aligned length= 45, RMSD=   2.56, Seq_ID=n_identical/n_aligned= 0.689
+TM-score= 0.55386 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.52064 (if normalized by length of Chain_2, i.e., LN=65, d0=2.77)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       3.1380458727  -0.7584047796   0.0262209722  -0.6512562098
+1       5.4806723073   0.0275621798   0.9995868776   0.0081486376
+2       4.1410291325   0.6512008265  -0.0117700750  -0.7588141728
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVS---DKRTCVSLTTQRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV---------------
+         .::::::::: ::::..:::::::::::::::::::::::::::..
+------EVMKKSICVSLTT-RLPINSIKSYTIQEGSMKAVIFITRRGIKICADPE--------ASWVKKAIKTIDRRT
+
+--
+
+TT
+
+Found in output TM-score = 0.5206
+0.52064
+(2.457946300506592, 310, 5, 7.476170063018799, 448, 202.0, 63)
+['2jp1', 'anc4_unrelaxed_rank_018_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobileonuvgtsm.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targetzz0wvwug.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 66 residues
+
+Aligned length= 45, RMSD=   2.28, Seq_ID=n_identical/n_aligned= 0.778
+TM-score= 0.56804 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.52714 (if normalized by length of Chain_2, i.e., LN=66, d0=2.80)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0       1.8849968184  -0.8137381541  -0.1617743615  -0.5582645184
+1       9.7383247052   0.0081109403   0.9572313216  -0.2892099751
+2       3.2586506295   0.5811750418  -0.2398692414  -0.7776235065
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSD----KRTCVSLTTQRLPVSRIKTYTITEGSLRAVIFITKRGLKVCADPQATWVRDVV--------------
+           ::::::::::::::..:::::::::::::::::::::::::::..
+-------EVLEKSICVSLTTQRLPINNIKTYTIKEGSMKAVIFITRRGLKICADPQ--------AKWVKKAVKTIDRK
+
+---
+
+TRT
+
+Found in output TM-score = 0.5271
+0.52714
+(2.0590980052948, 308, 5, 7.539880752563477, 459, 225.0, 64)
+['2jp1', 'xcl1_unrelaxed_rank_015_alphafold2_model_1_seed_004']
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/mobilexc8dw07n.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /var/folders/r9/gfg2_l_d19sgpym80gxr6s5s15xsw9/T/targettnunp1gv.pdb
+Length of Chain_1: 60 residues
+Length of Chain_2: 74 residues
+
+Aligned length= 33, RMSD=   2.92, Seq_ID=n_identical/n_aligned= 0.970
+TM-score= 0.37150 (if normalized by length of Chain_1, i.e., LN=60, d0=2.61)
+TM-score= 0.31929 (if normalized by length of Chain_2, i.e., LN=74, d0=3.03)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+
+Total CPU time is  0.00 seconds
+------ The rotation matrix to rotate Chain_1 to Chain_2 ------
+m               t[m]        u[m][0]        u[m][1]        u[m][2]
+0      -2.3665302812   0.7252870957  -0.0553296793   0.6862195388
+1      10.0543992514   0.5337353255   0.6747719363  -0.5097150540
+2      -0.4822236243  -0.4348393164   0.7359493601   0.5189347823
+
+Code for rotating Structure A from (x,y,z) to (X,Y,Z):
+for(i=0; i<L; i++)
+{
+   X[i] = t[0] + u[0][0]*x[i] + u[0][1]*y[i] + u[0][2]*z[i];
+   Y[i] = t[1] + u[1][0]*x[i] + u[1][1]*y[i] + u[1][2]*z[i];
+   Z[i] = t[2] + u[2][0]*x[i] + u[2][1]*y[i] + u[2][2]*z[i];
+}
+VGSEVSDKRT---------CVSLTTQRLPV--------SRIKTYTITEGSLRAVIFITKRGLKVCADPQ-ATWVRDVV
+                   .:.                .::::::::::::::::::::::::::.:   .
+----------GSEVSDKRTCVS--------LTTQRLPCSRIKTYTITEGSLRAVIFITKRGLKVCAD--PQ-------
+
+-----------------------
+
+ATWVRDCVRSMDRKSNTRNNMIQ
+
+Found in output TM-score = 0.3193
+0.31929
+(10.381824493408203, 432, 5, 11.419852256774902, 454, 288.0, 59)
